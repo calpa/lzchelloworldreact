@@ -9,4 +9,4 @@ author:
 application:
   subdomain: lzchelloworldreact
   routes:
-    - /=file:///lzcapp/pkg/content/dist
+    - /=file:///lzcapp/pkg/content/
