@@ -1,0 +1,18 @@
+buildscript: npm run build
+
+manifest: ./lzc-manifest.yml
+
+contentdir: ./dist
+
+pkgout: ./
+
+icon: ./lzc-icon.png
+
+devshell:
+  routes:
+    - /=http://${LocalIP}:5173
+  dependencies:
+    - nodejs
+    - npm
+  # setupscript: |
+  #   export npm_config_registry=https://registry.npmmirror.com

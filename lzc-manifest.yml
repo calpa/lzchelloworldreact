@@ -1,0 +1,12 @@
+lzc-sdk-version: 0.1
+name: React Hello World
+package: cloud.lazycat.app.lzchelloworldreact
+version: 0.0.1
+description:
+license: https://choosealicense.com/licenses/mit/
+homepage:
+author:
+application:
+  subdomain: lzchelloworldreact
+  routes:
+    - /=file:///lzcapp/pkg/content/dist
