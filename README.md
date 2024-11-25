@@ -1,5 +1,7 @@
 # Lazy Cat React Demo
 
+![](demo.png)
+
 ![Lazy Cat React Demo](lzc_demo.png)
 
 A lightweight and efficient starter project built with **Vite**, **TypeScript**, **SWC (Speedy Web Compiler)**, and **React.js**. This demo serves as a foundation for fast and modern web application development.
